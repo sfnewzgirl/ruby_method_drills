@@ -1,24 +1,35 @@
 ###########################
 #### LOOPS & ITERATORS ####
 ###########################
-#count_spaces
+# my attempt - doesn't work
+def count_spaces(string)
+  string.count
   # takes in a string
   # counts the spaces in a string
   # returns number of spaces
+end
 
-#string_lengths
+def string_lengths(array)
+  array.map {|str| str.length}
   # takes in an array of strings
   # returns an array containing the lengths of the strings
+end
 
-#remove_falsy_values
+# my attempt - doesn't work
+def remove_falsy_values(list)
+  list.select {|item| item == !true}
   # takes in a list
   # filters out falsy values from a list
   # returns the updated list
+end
 
-#exclude_last
+# my attempt - doesn't work
+def exclude_last(*args)
+  args[0..-2]
   # takes in an array or string
   # removes the last item from the array or string
   # returns it
+end
 
 #exclude_first
   # takes in an array or string

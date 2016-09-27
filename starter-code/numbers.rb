@@ -1,11 +1,14 @@
 ##############################
 #### MANIPULATING NUMBERS ####
 ##############################
-#count_to
+# my attempt - doesn't work
+def count_to(number)
+  array[0..number]
   # takes in a number
   # returns an array containing every integer from 0 to n
   # counts up or down
   # rounds off decimals
+end
 
 #is_integer?
   # takes in a number
