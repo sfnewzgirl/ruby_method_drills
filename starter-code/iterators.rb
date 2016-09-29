@@ -1,9 +1,16 @@
 ###########################
 #### LOOPS & ITERATORS ####
 ###########################
-# my attempt - doesn't work
+# my attempt - augmented after looking at solutions
 def count_spaces(string)
-  string.count
+  count = 0
+  space = " "
+  string.each_char do |char|
+    if char == space
+      count += 1
+    end
+  end
+    count
   # takes in a string
   # counts the spaces in a string
   # returns number of spaces
@@ -23,9 +30,9 @@ def remove_falsy_values(list)
   # returns the updated list
 end
 
-# my attempt - doesn't work
-def exclude_last(*args)
-  args[0..-2]
+# my attempt - augmented after peak at solutions, i had arguments, not sequence
+def exclude_last(sequence)
+  sequence[0..-2]
   # takes in an array or string
   # removes the last item from the array or string
   # returns it
